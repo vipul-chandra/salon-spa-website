@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #df71a8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #201519;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 95%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        textarea {
+            height: 150px;
+        }
+
+        button[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #555;
+        }
+
+        /* Style for the image */
+        .salon-image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .salon-image img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <div class="container">
+        <!-- Salon image -->
+        <div class="salon-image">
+            <img src="/assets/Imageforcontactus.jpg" alt="Vipasha Salon">
+        </div>
+
+        <h2>Contact Information</h2>
+        <p>If you have any questions or feedback, please don't hesitate to get in touch with us using the form below.</p>
+        
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <h2>Contact Details</h2>
+        <ul>
+            <li><strong>Toll-Free:</strong> 1800 123 1952</li>
+            <li><strong>PO Box:</strong> NO 1470, Mumbai 400099</li>
+            <li><strong>Email:</strong> <a href="mailto:CARE.LLPL@UNILEVER.COM">CARE.LLPL@UNILEVER.COM</a></li>
+        </ul>
+    </div>
+</body>
+</html>

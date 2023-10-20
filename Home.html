@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Salon & Spa</title>
+    <link rel="stylesheet" href="./css/Homecss.css">
+    <style>
+        /* Add this CSS to adjust the logo size */
+        .logo img {
+            width: 200px; /* Adjust the max-width to your desired size */
+            height: 70px;
+        }
+
+        #membership{
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/assets/stylehh.jpg" alt="Salon Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/Home.html">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#appointment">Book Appointment</a></li>
+                <li><a href="#membership">Log In</a></li>
+                <li><a href="/html/WebDev.html">Reviews</a></li>
+                <li><a href="/html/Aboutus.html">About Us</a></li>
+                <li><a href="/html/ContactUS.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="banner">
+        <img src="/assets/Untitled design.jpg" alt="Salon Banner">
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <marquee>
+            <ul>
+                <li>
+                    <img src="/assets/hairnstyling.jpg" width="220" height="170"><br>
+                    <a href="HaircutandStyling.html" style="text-decoration: none; color: black;">Haircut & Styling</a>
+                </li>
+                <li>
+                    <img src="/assets/massage.jpg" width="220" height="170"><br>
+                    <a href="MassageAndRelaxation.html" style="text-decoration: none; color: black;">Massage & Relaxation</a>
+                </li>
+                <li>
+                    <img src="/assets/hairspa.jpg" width="220" height="170"><br>
+                    <a href="HairSpa.html" style="text-decoration: none; color: black;">Hair Spa</a>
+                </li>
+                <li>
+                    <img src="/assets/manicure.jpg" width="220" height="170"><br>
+                    <a href="ManicureAndPedicure.html" style="text-decoration: none; color: black;">Manicure & Pedicure</a>
+                </li>
+                <li>
+                    <img src="/assets/facial.jpg" width="220" height="170"><br>
+                    <a href="FacialsAndMakeup.html" style="text-decoration: none; color: black;">Facials & Make-up</a>
+                </li>
+            </ul>
+        </marquee>
+        <br>
+        <br>
+
+    <section id="appointment">
+        <h2>Book an Appointment</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="service">Select a Service:</label>
+            <select id="service" name="service">
+                <option value="haircut">Haircut & Styling</option>
+                <option value="massage">Massage & Relaxation</option>
+                <option value="hair">Hair Spa</option>
+                <option value="manicure">Manicure & Pedicure</option>
+                <option value="facial">Facials & Make-up</option>
+            </select>
+
+            <label for="date">Select a Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Select a Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <button type="submit">Book Appointment</button>
+        </form>
+    </section>
+    <br> 
+    <table>
+        <tr>
+            <td><img src="https://img.freepik.com/premium-photo/beauty-salon-interior-chairs-mirrors-pink-hairdressing-shop-generative-ai-inside-beauty-studio-spa-room-clean-empty-trendy-salon-store-fashion-glamour-design-concept_788189-10319.jpg" width="650" height="370"></td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td></td>
+           
+           
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            
+            
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td></td><td></td>
+
+            <td><div><section id="membership">
+                
+                <h1>LOG IN </h1>
+                <h5>If you have an account with us, please log in.</h5><br>
+                <form action="#" method="post">
+          
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+          
+                  <label for="password">Password:</label>
+                  <input type="password" id="password" name="password" required>
+                  <button type="submit">Login</button> <h5><a href="/html/Membership.html"> Create Account </a></h5><br>
+                </form> 
+              </section></td>
+            </div>
+        </tr>
+    </table>
+    <br>
+    
+            
+     <footer>
+        <p>&copy; DivaStyle</p>
+        <div class="contact-us">
+            <p>Contact Us: 993738923</p>
+            <p>Address: IIM ROHTAK</p>
+            <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+            <p>Contact No.: +123-456-7890</p>
+        </div>
+    </footer>  
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Salon & Spa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="appointment">
+        <h2>Book an Appointment</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="service">Select a Service:</label>
+            <select id="service" name="service">
+                <option value="haircut">Haircut & Styling</option>
+                <option value="massage">Massage & Relaxation</option>
+                <option value="hair">Hair Spa</option>
+                <option value="manicure">Manicure & Pedicure</option>
+                <option value="facial">Facials & Make-up</option>
+            </select>
+
+            <label for="date">Select a Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Select a Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <button type="submit">Book Appointment</button>
+        </form>
+    </section>
+</body>
+</html>
